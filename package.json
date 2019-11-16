@@ -1,0 +1,47 @@
+{
+  "name": "napi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "dbinit": "egg-sequelize-auto -o ./app/model -h localhost -p 3306 -d library -u root -x haosql",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "db:migrate:create": "sequelize --options-path=database/options.js migration:create --name",
+    "db:migrate": "sequelize --options-path=database/options.js db:migrate",
+    "migrate:new": "egg-sequelize migration:create",
+    "migrate:up": "egg-sequelize db:migrate",
+    "migrate:down": "egg-sequelize db:migrate:undo"
+  },
+  "keywords": [
+    "napi",
+    "egg",
+    "node",
+    "swagger",
+    "MonkSoul"
+  ],
+  "author": "dengjing",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "common-bin": "^2.8.2",
+    "debug": "^4.1.1",
+    "egg": "^2.24.0",
+    "egg-cors": "^2.2.2",
+    "egg-scripts": "^2.11.1",
+    "egg-sequelize": "^5.2.0",
+    "egg-swagger-doc": "^2.3.2",
+    "egg-validate": "^2.0.2",
+    "ms": "^2.1.2",
+    "mysql2": "^1.7.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0",
+    "egg-sequelize-auto": "^0.1.1",
+    "mysql2": "^1.7.0"
+  }
+}

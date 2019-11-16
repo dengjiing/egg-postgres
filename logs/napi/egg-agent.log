@@ -1,0 +1,45 @@
+2019-11-16 15:52:16,817 INFO 22792 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-16 15:52:16,047 INFO 22792 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-16 15:52:16,351 INFO 22792 [egg:core] dump config after load, 5ms
+2019-11-16 15:52:16,390 INFO 22792 [egg-watcher] Start watching: ["F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"]
+2019-11-16 15:52:16,390 INFO 22792 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app"
+2019-11-16 15:52:16,391 INFO 22792 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config"
+2019-11-16 15:52:16,391 INFO 22792 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks"
+2019-11-16 15:52:16,391 INFO 22792 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy"
+2019-11-16 15:52:16,391 INFO 22792 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"
+2019-11-16 15:52:16,391 INFO 22792 [egg-watcher:agent] watcher start success
+2019-11-16 15:52:16,824 INFO 22792 [egg:core] dump config after ready, 5ms
+2019-11-16 15:52:18,663 INFO 22792 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app\\public","stat":{"dev":821448828,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424931174637,"size":0,"atimeMs":1573890738659.9705,"mtimeMs":1573890738659.9705,"ctimeMs":1573890738659.9705,"birthtimeMs":1573890738659.9705,"atime":"2019-11-16T07:52:18.660Z","mtime":"2019-11-16T07:52:18.660Z","ctime":"2019-11-16T07:52:18.660Z","birthtime":"2019-11-16T07:52:18.660Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-11-16 16:25:17,680 INFO 12420 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-16 16:25:16,897 INFO 12420 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-16 16:25:17,201 INFO 12420 [egg:core] dump config after load, 4ms
+2019-11-16 16:25:17,251 INFO 12420 [egg-watcher] Start watching: ["F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"]
+2019-11-16 16:25:17,251 INFO 12420 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app"
+2019-11-16 16:25:17,251 INFO 12420 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config"
+2019-11-16 16:25:17,251 INFO 12420 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks"
+2019-11-16 16:25:17,252 INFO 12420 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy"
+2019-11-16 16:25:17,252 INFO 12420 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"
+2019-11-16 16:25:17,252 INFO 12420 [egg-watcher:agent] watcher start success
+2019-11-16 16:25:17,687 INFO 12420 [egg:core] dump config after ready, 5ms
+2019-11-16 16:30:11,118 INFO 15260 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-16 16:30:10,395 INFO 15260 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-16 16:30:10,692 INFO 15260 [egg:core] dump config after load, 4ms
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: ["F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"]
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app"
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config"
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks"
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy"
+2019-11-16 16:30:10,734 INFO 15260 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"
+2019-11-16 16:30:10,735 INFO 15260 [egg-watcher:agent] watcher start success
+2019-11-16 16:30:11,125 INFO 15260 [egg:core] dump config after ready, 4ms
+2019-11-16 16:53:28,911 INFO 21484 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-16 16:53:28,193 INFO 21484 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-16 16:53:28,493 INFO 21484 [egg:core] dump config after load, 4ms
+2019-11-16 16:53:28,535 INFO 21484 [egg-watcher] Start watching: ["F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy","F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"]
+2019-11-16 16:53:28,535 INFO 21484 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app"
+2019-11-16 16:53:28,535 INFO 21484 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config"
+2019-11-16 16:53:28,535 INFO 21484 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks"
+2019-11-16 16:53:28,536 INFO 21484 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\mocks_proxy"
+2019-11-16 16:53:28,536 INFO 21484 [egg-watcher] Start watching: "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app.js"
+2019-11-16 16:53:28,536 INFO 21484 [egg-watcher:agent] watcher start success
+2019-11-16 16:53:28,918 INFO 21484 [egg:core] dump config after ready, 5ms

@@ -1,0 +1,52 @@
+2019-11-16 15:52:18,259 INFO 27988 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-16 15:52:18,288 INFO 27988 [egg-multipart] stream mode enable
+2019-11-16 15:52:18,660 INFO 27988 [egg-static] starting static serve /public/ -> F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\public
+2019-11-16 15:52:18,663 INFO 27988 [egg-security] use methodnoallow middleware
+2019-11-16 15:52:18,664 INFO 27988 [egg-security] use noopen middleware
+2019-11-16 15:52:18,665 INFO 27988 [egg-security] use nosniff middleware
+2019-11-16 15:52:18,666 INFO 27988 [egg-security] use xssProtection middleware
+2019-11-16 15:52:18,667 INFO 27988 [egg-security] use xframe middleware
+2019-11-16 15:52:18,667 INFO 27988 [egg-security] use dta middleware
+2019-11-16 15:52:18,667 INFO 27988 [egg-security] compose 6 middlewares into one security middleware
+2019-11-16 15:52:18,679 INFO 27988 [egg:core] dump config after load, 6ms
+2019-11-16 15:52:18,739 INFO 27988 [egg-watcher:application] watcher start success
+2019-11-16 15:52:19,135 INFO 27988 [egg:core] dump config after ready, 5ms
+2019-11-16 16:25:19,096 INFO 15872 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-16 16:25:19,124 INFO 15872 [egg-multipart] stream mode enable
+2019-11-16 16:25:19,496 INFO 15872 [egg-static] starting static serve /public/ -> F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\public
+2019-11-16 16:25:19,499 INFO 15872 [egg-security] use methodnoallow middleware
+2019-11-16 16:25:19,500 INFO 15872 [egg-security] use noopen middleware
+2019-11-16 16:25:19,501 INFO 15872 [egg-security] use nosniff middleware
+2019-11-16 16:25:19,502 INFO 15872 [egg-security] use xssProtection middleware
+2019-11-16 16:25:19,502 INFO 15872 [egg-security] use xframe middleware
+2019-11-16 16:25:19,503 INFO 15872 [egg-security] use dta middleware
+2019-11-16 16:25:19,503 INFO 15872 [egg-security] compose 6 middlewares into one security middleware
+2019-11-16 16:25:19,514 INFO 15872 [egg:core] dump config after load, 5ms
+2019-11-16 16:25:19,574 INFO 15872 [egg-watcher:application] watcher start success
+2019-11-16 16:25:19,935 INFO 15872 [egg:core] dump config after ready, 5ms
+2019-11-16 16:30:12,507 INFO 26020 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-16 16:30:12,534 INFO 26020 [egg-multipart] stream mode enable
+2019-11-16 16:30:12,899 INFO 26020 [egg-static] starting static serve /public/ -> F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\public
+2019-11-16 16:30:12,902 INFO 26020 [egg-security] use methodnoallow middleware
+2019-11-16 16:30:12,902 INFO 26020 [egg-security] use noopen middleware
+2019-11-16 16:30:12,904 INFO 26020 [egg-security] use nosniff middleware
+2019-11-16 16:30:12,904 INFO 26020 [egg-security] use xssProtection middleware
+2019-11-16 16:30:12,905 INFO 26020 [egg-security] use xframe middleware
+2019-11-16 16:30:12,905 INFO 26020 [egg-security] use dta middleware
+2019-11-16 16:30:12,905 INFO 26020 [egg-security] compose 6 middlewares into one security middleware
+2019-11-16 16:30:12,917 INFO 26020 [egg:core] dump config after load, 4ms
+2019-11-16 16:30:12,973 INFO 26020 [egg-watcher:application] watcher start success
+2019-11-16 16:30:13,388 INFO 26020 [egg:core] dump config after ready, 6ms
+2019-11-16 16:53:30,336 INFO 15864 [egg:logger] init all loggers with options: {"dir":"F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-16 16:53:30,364 INFO 15864 [egg-multipart] stream mode enable
+2019-11-16 16:53:30,742 INFO 15864 [egg-static] starting static serve /public/ -> F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\public
+2019-11-16 16:53:30,745 INFO 15864 [egg-security] use methodnoallow middleware
+2019-11-16 16:53:30,746 INFO 15864 [egg-security] use noopen middleware
+2019-11-16 16:53:30,747 INFO 15864 [egg-security] use nosniff middleware
+2019-11-16 16:53:30,748 INFO 15864 [egg-security] use xssProtection middleware
+2019-11-16 16:53:30,749 INFO 15864 [egg-security] use xframe middleware
+2019-11-16 16:53:30,749 INFO 15864 [egg-security] use dta middleware
+2019-11-16 16:53:30,749 INFO 15864 [egg-security] compose 6 middlewares into one security middleware
+2019-11-16 16:53:30,762 INFO 15864 [egg:core] dump config after load, 5ms
+2019-11-16 16:53:30,823 INFO 15864 [egg-watcher:application] watcher start success
+2019-11-16 16:53:31,298 INFO 15864 [egg:core] dump config after ready, 5ms

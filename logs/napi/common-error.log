@@ -1,0 +1,94 @@
+2019-11-16 15:52:35,253 ERROR 27988 [-/127.0.0.1/-/2ms GET /v1/admin/getAdmin] nodejs.InternalServerError: 参数错误
+    at Object.throw (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\lib\context.js:97:11)
+    at AdminController.getAdmin (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\controller\admin.js:30:27)
+    at Object.callFn (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:44:32)
+    at next (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:45:18)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:44:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-static-cache\index.js:62:42
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+message: "参数错误"
+pid: 27988
+hostname: pc-dengjing6
+
+2019-11-16 16:26:31,633 ERROR 15872 [-/127.0.0.1/-/179ms PUT /v1/admin/addAdmin] nodejs.SequelizeDatabaseError: 关系 "admin" 不存在
+    at Query.formatError (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\sequelize.js:645:12)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Promise.resolve.retry (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\sequelize\lib\sequelize.js:580:23)
+    at AdminService.getSingleByWhere (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\service\admin.js:40:43)
+    at AdminService.isExitByWhere (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\service\admin.js:49:35)
+    at AdminController.addAdmin (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\controller\admin.js:71:33)
+    at Object.callFn (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:44:32)
+    at next (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:45:18)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:44:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":161,"severity":"错误","code":"42P01","position":"78","file":"d:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1194","routine":"parserOpenTable","sql":"select Id,Name,DATE_FORMAT(CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate from Admin where Name = '1' ;"}
+original: {"name":"error","length":161,"severity":"错误","code":"42P01","position":"78","file":"d:\\pginstaller_12.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1194","routine":"parserOpenTable","sql":"select Id,Name,DATE_FORMAT(CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate from Admin where Name = '1' ;"}
+sql: "select Id,Name,DATE_FORMAT(CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate from Admin where Name = '1' ;"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15872
+hostname: pc-dengjing6
+
+2019-11-16 16:56:36,378 ERROR 15864 [-/127.0.0.1/-/200ms GET /v1/book/getBookById?Id=0] nodejs.TypeError: Cannot read property 'length' of null
+    at Helper.mapperToDto (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\extend\helper.js:29:52)
+    at BookController.getBookById (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\controller\book.js:31:38)
+
+pid: 15864
+hostname: pc-dengjing6
+
+2019-11-16 16:56:50,747 ERROR 15864 [-/127.0.0.1/-/174ms GET /v1/book/getBookById?Id=89] nodejs.TypeError: Cannot read property 'length' of null
+    at Helper.mapperToDto (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\extend\helper.js:29:52)
+    at BookController.getBookById (F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\app\controller\book.js:31:38)
+
+pid: 15864
+hostname: pc-dengjing6
+
