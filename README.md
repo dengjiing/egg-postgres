@@ -46,4 +46,4 @@ NAPI 项目目录
 
 ## 使用教程
 
-整理中....
+https://www.jianshu.com/p/93b19699659a
