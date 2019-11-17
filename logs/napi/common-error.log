@@ -92,3 +92,171 @@ hostname: pc-dengjing6
 pid: 15864
 hostname: pc-dengjing6
 
+2019-11-17 09:27:05,328 ERROR 80764 [-/127.0.0.1/-/227ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "true"
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]}
+original: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:27:12,138 ERROR 80764 [-/127.0.0.1/-/11ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "true"
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]}
+original: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:40:39,708 ERROR 83008 [-/127.0.0.1/-/72ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: null value in column "UpdatedDate" violates not-null constraint
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":259,"severity":"ERROR","code":"23502","detail":"Failing row contains (1, 时代周刊, swngjing, 12, 123, 0, 0, 0, 1, 2019-11-17 09:40:39.679+00, null).","schema":"public","table":"book","column":"UpdatedDate","file":"execMain.c","line":"1736","routine":"ExecConstraints","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]}
+original: {"name":"error","length":259,"severity":"ERROR","code":"23502","detail":"Failing row contains (1, 时代周刊, swngjing, 12, 123, 0, 0, 0, 1, 2019-11-17 09:40:39.679+00, null).","schema":"public","table":"book","column":"UpdatedDate","file":"execMain.c","line":"1736","routine":"ExecConstraints","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83008
+hostname: DESKTOP-O15HJU6
+

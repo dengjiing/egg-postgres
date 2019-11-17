@@ -87,29 +87,29 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-session\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-security\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-jsonp\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-onerror\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-i18n\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-watcher\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-schedule\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-multipart\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-development\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-logrotator\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-static\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-view\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-swagger-doc\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-sequelize\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-validate\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-cors\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\locales",
-        "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config\\locales"
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-session\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-security\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-jsonp\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-onerror\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-i18n\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-watcher\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-schedule\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-multipart\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-development\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-logrotator\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-static\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-view\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-swagger-doc\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-sequelize\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-validate\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-cors\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\locales",
+        "F:\\dengjing\\egg\\egg-postgres\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -120,8 +120,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -144,7 +144,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\DENGJI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\napi",
+      "tmpdir": "C:\\Users\\zgf\\AppData\\Local\\Temp\\egg-multipart-tmp\\napi",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -167,14 +167,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app\\public",
+      "dir": "F:\\dengjing\\egg\\egg-postgres\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\app\\view",
+      "root": "F:\\dengjing\\egg\\egg-postgres\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -209,7 +209,7 @@
       "host": "localhost",
       "port": 5432,
       "username": "postgres",
-      "password": "<String len: 0>",
+      "password": "<String len: 3>",
       "define": {
         "freezeTableName": true,
         "timestamps": false
@@ -243,7 +243,9 @@
         "db:migrate": "sequelize --options-path=database/options.js db:migrate",
         "migrate:new": "egg-sequelize migration:create",
         "migrate:up": "egg-sequelize db:migrate",
-        "migrate:down": "egg-sequelize db:migrate:undo"
+        "migrate:down": "egg-sequelize db:migrate:undo",
+        "dbload": "egg-sequelize-auto -o ./app/model -h localhost -p 5432  --dialect postgres -d postgresnode -u postgres -x 123",
+        "test": "echo \"Error: no test specified\" && exit 1"
       },
       "keywords": [
         "napi",
@@ -252,7 +254,7 @@
         "swagger",
         "MonkSoul"
       ],
-      "author": "MonkSoul",
+      "author": "dengjing",
       "license": "MIT",
       "dependencies": {
         "co": "^4.6.0",
@@ -276,9 +278,9 @@
         "mysql2": "^1.7.0"
       }
     },
-    "baseDir": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node",
-    "HOME": "C:\\Users\\dengjing6",
-    "rundir": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\run",
+    "baseDir": "F:\\dengjing\\egg\\egg-postgres",
+    "HOME": "C:\\Users\\zgf",
+    "rundir": "F:\\dengjing\\egg\\egg-postgres\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -310,7 +312,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\logs\\napi",
+      "dir": "F:\\dengjing\\egg\\egg-postgres\\logs\\napi",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -403,8 +405,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-session",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -416,8 +418,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-security",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -429,8 +431,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-jsonp",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -442,8 +444,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-onerror",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -453,8 +455,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-i18n",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -464,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-watcher",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -475,8 +477,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-schedule",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -488,8 +490,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-multipart",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-multipart",
       "version": "2.9.1"
     },
     "development": {
@@ -503,8 +505,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-development",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -516,8 +518,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-logrotator",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -527,8 +529,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-static",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -538,8 +540,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-view",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "swaggerdoc": {
@@ -549,8 +551,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-swagger-doc",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-swagger-doc",
       "version": "2.3.2"
     },
     "sequelize": {
@@ -560,8 +562,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-sequelize",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-sequelize",
       "version": "5.2.0"
     },
     "validate": {
@@ -571,8 +573,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-validate",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-validate",
       "version": "2.0.2"
     },
     "cors": {
@@ -582,8 +584,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\config\\plugin.js",
-      "path": "F:\\邓静6\\项目汇总\\代码学习\\egg\\NodeJs_demo-master\\NodeJs_demo-master\\node\\node_modules\\egg-cors",
+      "from": "F:\\dengjing\\egg\\egg-postgres\\config\\plugin.js",
+      "path": "F:\\dengjing\\egg\\egg-postgres\\node_modules\\egg-cors",
       "version": "2.2.3"
     }
   }
