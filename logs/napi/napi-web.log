@@ -186,3 +186,872 @@ pid: 15864
 hostname: pc-dengjing6
 
 2019-11-16 16:56:56,497 INFO 15864 [egg-sequelize](0ms) Executed (default): SELECT "Id", "Name", "Price", "Author", "MakeSource", "BookCategoryId", "Inventory", "IsDeleted", "IsSoldOut", "CreatedDate", "UpdatedDate" FROM "book" AS "book" WHERE "book"."Id" = '1';
+2019-11-17 09:22:39,288 INFO 80104 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:22:39,325 INFO 80104 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:22:39,328 INFO 80104 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:22:39,330 INFO 80104 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:22:39,331 INFO 80104 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:22:39,333 INFO 80104 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:22:39,335 INFO 80104 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:22:39,336 INFO 80104 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:22:39,337 INFO 80104 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:22:39,338 INFO 80104 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:22:39,340 INFO 80104 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:22:39,341 INFO 80104 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:22:39,342 INFO 80104 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:22:39,344 INFO 80104 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:22:39,685 INFO 80104 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:26:15,479 INFO 80764 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:26:15,514 INFO 80764 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:26:15,517 INFO 80764 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:26:15,519 INFO 80764 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:26:15,520 INFO 80764 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:26:15,521 INFO 80764 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:26:15,523 INFO 80764 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:26:15,524 INFO 80764 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:26:15,525 INFO 80764 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:26:15,526 INFO 80764 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:26:15,527 INFO 80764 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:26:15,529 INFO 80764 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:26:15,530 INFO 80764 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:26:15,531 INFO 80764 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:26:15,854 INFO 80764 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:26:20,419 INFO 80764 [egg-sequelize](3ms) Executed (default): SELECT "Id", "Name", "Price", "Author", "MakeSource", "BookCategoryId", "Inventory", "IsDeleted", "IsSoldOut", "CreatedDate", "UpdatedDate" FROM "book" AS "book" WHERE "book"."Id" = '1';
+2019-11-17 09:27:05,366 ERROR 80764 [-/127.0.0.1/-/227ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "true"
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]}
+original: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:05.133 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:27:12,179 ERROR 80764 [-/127.0.0.1/-/11ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: invalid input syntax for integer: "true"
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]}
+original: {"name":"error","length":93,"severity":"ERROR","code":"22P02","file":"numutils.c","line":"62","routine":"pg_atoi","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",true,"2019-11-17 09:27:12.128 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:27:50,789 WARN 80764 [-/127.0.0.1/-/2ms PUT /v1/book/addBook] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (F:\dengjing\egg\egg-postgres\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (F:\dengjing\egg\egg-postgres\node_modules\egg-validate\app\extend\context.js:14:17)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:62:13)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a boolean","code":"invalid","field":"IsSoldOut"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:28:13,519 WARN 80764 [-/127.0.0.1/-/1ms PUT /v1/book/addBook] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (F:\dengjing\egg\egg-postgres\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (F:\dengjing\egg\egg-postgres\node_modules\egg-validate\app\extend\context.js:14:17)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:62:13)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a boolean","code":"invalid","field":"IsSoldOut"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 80764
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:31:27,891 INFO 11312 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:31:27,929 INFO 11312 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:31:27,932 INFO 11312 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:31:27,934 INFO 11312 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:31:27,936 INFO 11312 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:31:27,937 INFO 11312 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:31:27,939 INFO 11312 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:31:27,941 INFO 11312 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:31:27,942 INFO 11312 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:31:27,943 INFO 11312 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:31:27,944 INFO 11312 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:31:27,946 INFO 11312 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:31:27,947 INFO 11312 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:31:27,948 INFO 11312 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:31:28,250 INFO 11312 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:31:30,383 INFO 81464 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:31:30,420 INFO 81464 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:31:30,422 INFO 81464 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:31:30,424 INFO 81464 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:31:30,425 INFO 81464 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:31:30,426 INFO 81464 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:31:30,427 INFO 81464 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:31:30,429 INFO 81464 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:31:30,430 INFO 81464 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:31:30,431 INFO 81464 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:31:30,432 INFO 81464 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:31:30,433 INFO 81464 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:31:30,434 INFO 81464 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:31:30,435 INFO 81464 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:31:30,795 INFO 81464 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:31:52,400 INFO 80868 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:31:52,434 INFO 80868 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:31:52,437 INFO 80868 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:31:52,438 INFO 80868 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:31:52,440 INFO 80868 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:31:52,441 INFO 80868 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:31:52,442 INFO 80868 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:31:52,443 INFO 80868 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:31:52,444 INFO 80868 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:31:52,446 INFO 80868 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:31:52,447 INFO 80868 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:31:52,448 INFO 80868 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:31:52,449 INFO 80868 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:31:52,450 INFO 80868 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:31:52,822 INFO 80868 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:31:54,829 INFO 77248 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:31:54,863 INFO 77248 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:31:54,866 INFO 77248 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:31:54,868 INFO 77248 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:31:54,869 INFO 77248 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:31:54,870 INFO 77248 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:31:54,871 INFO 77248 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:31:54,873 INFO 77248 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:31:54,874 INFO 77248 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:31:54,875 INFO 77248 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:31:54,876 INFO 77248 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:31:54,877 INFO 77248 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:31:54,878 INFO 77248 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:31:54,879 INFO 77248 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:31:55,182 INFO 77248 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:39:26,304 INFO 81264 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:39:26,344 INFO 81264 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:39:26,346 INFO 81264 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:39:26,348 INFO 81264 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:39:26,350 INFO 81264 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:39:26,352 INFO 81264 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:39:26,353 INFO 81264 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:39:26,356 INFO 81264 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:39:26,358 INFO 81264 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:39:26,359 INFO 81264 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:39:26,361 INFO 81264 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:39:26,362 INFO 81264 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:39:26,364 INFO 81264 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:39:26,366 INFO 81264 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:39:26,755 INFO 81264 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:39:35,531 WARN 81264 [-/127.0.0.1/-/45ms PUT /v1/book/addBook] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (F:\dengjing\egg\egg-postgres\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (F:\dengjing\egg\egg-postgres\node_modules\egg-validate\app\extend\context.js:14:17)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:62:13)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an object","code":"invalid","field":"IsSoldOut"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 81264
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:40:01,029 INFO 77324 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:40:01,089 INFO 77324 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:40:01,092 INFO 77324 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:40:01,094 INFO 77324 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:40:01,096 INFO 77324 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:40:01,098 INFO 77324 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:40:01,102 INFO 77324 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:40:01,104 INFO 77324 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:40:01,106 INFO 77324 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:40:01,108 INFO 77324 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:40:01,110 INFO 77324 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:40:01,112 INFO 77324 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:40:01,114 INFO 77324 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:40:01,117 INFO 77324 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:40:01,571 INFO 77324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:40:09,152 WARN 77324 [-/127.0.0.1/-/44ms PUT /v1/book/addBook] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (F:\dengjing\egg\egg-postgres\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (F:\dengjing\egg\egg-postgres\node_modules\egg-validate\app\extend\context.js:14:17)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:62:13)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an object","code":"invalid","field":"IsSoldOut"}]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 77324
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:40:33,270 INFO 79700 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:40:33,305 INFO 79700 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:40:33,307 INFO 79700 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:40:33,309 INFO 79700 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:40:33,310 INFO 79700 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:40:33,311 INFO 79700 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:40:33,312 INFO 79700 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:40:33,313 INFO 79700 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:40:33,314 INFO 79700 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:40:33,315 INFO 79700 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:40:33,316 INFO 79700 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:40:33,317 INFO 79700 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:40:33,318 INFO 79700 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:40:33,319 INFO 79700 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:40:33,714 INFO 79700 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:40:36,002 INFO 83008 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 09:40:36,044 INFO 83008 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 09:40:36,046 INFO 83008 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 09:40:36,047 INFO 83008 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 09:40:36,048 INFO 83008 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 09:40:36,049 INFO 83008 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 09:40:36,050 INFO 83008 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 09:40:36,051 INFO 83008 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 09:40:36,052 INFO 83008 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 09:40:36,053 INFO 83008 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 09:40:36,054 INFO 83008 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 09:40:36,055 INFO 83008 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 09:40:36,056 INFO 83008 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 09:40:36,057 INFO 83008 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 09:40:36,447 INFO 83008 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 09:40:39,721 ERROR 83008 [-/127.0.0.1/-/72ms PUT /v1/book/addBook] nodejs.SequelizeDatabaseError: null value in column "UpdatedDate" violates not-null constraint
+    at Query.formatError (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at query.catch.err (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:72:18)
+From previous event:
+    at Query.run (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at runHooks.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:29)
+From previous event:
+    at Promise.try.then.connection (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:645:12)
+From previous event:
+    at Promise.resolve.retry (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:641:10)
+    at F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (F:\dengjing\egg\egg-postgres\node_modules\retry-as-promised\index.js:60:10)
+    at Promise.try (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:631:30)
+From previous event:
+    at Sequelize.query (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\query-interface.js:885:27)
+    at Promise.try.then.then.then (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3985:52)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at model.save (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:3962:8)
+    at Function.create (F:\dengjing\egg\egg-postgres\node_modules\sequelize\lib\model.js:2226:8)
+    at BookService.create (F:\dengjing\egg\egg-postgres\app\service\baseService.js:46:39)
+    at BookController.addBook (F:\dengjing\egg\egg-postgres\app\controller\book.js:66:43)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\dengjing\egg\egg-postgres\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at next (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:45:18)
+    at F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:44:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\koa-static-cache\index.js:51:69
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\dengjing\egg\egg-postgres\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\dengjing\egg\egg-postgres\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (F:\dengjing\egg\egg-postgres\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (F:\dengjing\egg\egg-postgres\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"name":"error","length":259,"severity":"ERROR","code":"23502","detail":"Failing row contains (1, 时代周刊, swngjing, 12, 123, 0, 0, 0, 1, 2019-11-17 09:40:39.679+00, null).","schema":"public","table":"book","column":"UpdatedDate","file":"execMain.c","line":"1736","routine":"ExecConstraints","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]}
+original: {"name":"error","length":259,"severity":"ERROR","code":"23502","detail":"Failing row contains (1, 时代周刊, swngjing, 12, 123, 0, 0, 0, 1, 2019-11-17 09:40:39.679+00, null).","schema":"public","table":"book","column":"UpdatedDate","file":"execMain.c","line":"1736","routine":"ExecConstraints","sql":"INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;","parameters":["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]}
+sql: "INSERT INTO \"book\" (\"Id\",\"Name\",\"Price\",\"Author\",\"MakeSource\",\"BookCategoryId\",\"Inventory\",\"IsDeleted\",\"IsSoldOut\",\"CreatedDate\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;"
+parameters: ["时代周刊","12","swngjing","123",0,0,"0",1,"2019-11-17 09:40:39.679 +00:00"]
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 83008
+hostname: DESKTOP-O15HJU6
+
+2019-11-17 09:41:55,614 INFO 83008 [egg-sequelize](18ms) Executed (default): INSERT INTO "book" ("Id","Name","Price","Author","MakeSource","BookCategoryId","Inventory","IsDeleted","IsSoldOut","CreatedDate") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;
+2019-11-17 11:20:42,644 INFO 11820 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:20:42,686 INFO 11820 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:20:42,688 INFO 11820 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:20:42,689 INFO 11820 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:20:42,690 INFO 11820 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:20:42,690 INFO 11820 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:20:42,691 INFO 11820 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:20:42,692 INFO 11820 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:20:42,693 INFO 11820 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:20:42,693 INFO 11820 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:20:42,694 INFO 11820 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:20:42,695 INFO 11820 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:20:42,696 INFO 11820 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:20:42,697 INFO 11820 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:20:43,079 INFO 11820 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:20:45,205 INFO 85040 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:20:45,241 INFO 85040 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:20:45,243 INFO 85040 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:20:45,244 INFO 85040 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:20:45,245 INFO 85040 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:20:45,246 INFO 85040 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:20:45,247 INFO 85040 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:20:45,249 INFO 85040 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:20:45,250 INFO 85040 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:20:45,251 INFO 85040 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:20:45,252 INFO 85040 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:20:45,253 INFO 85040 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:20:45,254 INFO 85040 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:20:45,255 INFO 85040 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:20:45,600 INFO 85040 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:24:31,935 INFO 10864 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:24:31,974 INFO 10864 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:24:31,976 INFO 10864 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:24:31,978 INFO 10864 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:24:31,979 INFO 10864 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:24:31,980 INFO 10864 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:24:31,981 INFO 10864 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:24:31,983 INFO 10864 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBookById 
+2019-11-17 11:24:31,984 INFO 10864 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-getBooks 
+2019-11-17 11:24:31,985 INFO 10864 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-addBook 
+2019-11-17 11:24:31,986 INFO 10864 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-editBook 
+2019-11-17 11:24:31,987 INFO 10864 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-deleteBook 
+2019-11-17 11:24:31,988 INFO 10864 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:24:32,284 INFO 10864 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:24:34,429 INFO 47892 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:24:34,463 INFO 47892 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:24:34,465 INFO 47892 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:24:34,467 INFO 47892 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:24:34,468 INFO 47892 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:24:34,469 INFO 47892 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:24:34,469 INFO 47892 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:24:34,470 INFO 47892 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBookById 
+2019-11-17 11:24:34,471 INFO 47892 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-getBooks 
+2019-11-17 11:24:34,472 INFO 47892 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-addBook 
+2019-11-17 11:24:34,473 INFO 47892 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-editBook 
+2019-11-17 11:24:34,474 INFO 47892 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-deleteBook 
+2019-11-17 11:24:34,474 INFO 47892 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:24:34,899 INFO 47892 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:13,069 INFO 85096 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:13,108 INFO 85096 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:13,111 INFO 85096 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:13,113 INFO 85096 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:13,114 INFO 85096 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:13,114 INFO 85096 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:13,116 INFO 85096 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:13,116 INFO 85096 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:13,117 INFO 85096 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:13,118 INFO 85096 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:13,119 INFO 85096 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:13,120 INFO 85096 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:13,121 INFO 85096 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:13,122 INFO 85096 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:13,620 INFO 85096 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:16,840 INFO 84144 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:16,874 INFO 84144 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:16,877 INFO 84144 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:16,879 INFO 84144 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:16,880 INFO 84144 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:16,881 INFO 84144 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:16,882 INFO 84144 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:16,882 INFO 84144 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:16,884 INFO 84144 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:16,885 INFO 84144 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:16,885 INFO 84144 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:16,886 INFO 84144 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:16,887 INFO 84144 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:16,888 INFO 84144 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:17,275 INFO 84144 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:29,230 INFO 86280 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:29,267 INFO 86280 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:29,269 INFO 86280 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:29,271 INFO 86280 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:29,272 INFO 86280 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:29,273 INFO 86280 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:29,273 INFO 86280 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:29,274 INFO 86280 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:29,275 INFO 86280 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:29,276 INFO 86280 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:29,277 INFO 86280 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:29,277 INFO 86280 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:29,278 INFO 86280 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:29,279 INFO 86280 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:29,616 INFO 86280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:31,943 INFO 85708 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:31,977 INFO 85708 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:31,979 INFO 85708 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:31,981 INFO 85708 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:31,982 INFO 85708 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:31,983 INFO 85708 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:31,984 INFO 85708 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:31,985 INFO 85708 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:31,986 INFO 85708 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:31,987 INFO 85708 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:31,988 INFO 85708 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:31,988 INFO 85708 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:31,989 INFO 85708 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:31,990 INFO 85708 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:32,303 INFO 85708 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:34,873 INFO 84768 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:34,906 INFO 84768 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:34,909 INFO 84768 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:34,911 INFO 84768 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:34,912 INFO 84768 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:34,913 INFO 84768 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:34,914 INFO 84768 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:34,915 INFO 84768 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:34,916 INFO 84768 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:34,918 INFO 84768 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:34,919 INFO 84768 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:34,920 INFO 84768 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:34,922 INFO 84768 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:34,923 INFO 84768 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:35,231 INFO 84768 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:25:37,425 INFO 80284 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:25:37,459 INFO 80284 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:25:37,461 INFO 80284 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:25:37,462 INFO 80284 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:25:37,463 INFO 80284 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:25:37,464 INFO 80284 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:25:37,465 INFO 80284 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:25:37,466 INFO 80284 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:25:37,467 INFO 80284 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:25:37,467 INFO 80284 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:25:37,468 INFO 80284 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:25:37,469 INFO 80284 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:25:37,470 INFO 80284 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:25:37,471 INFO 80284 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:25:37,848 INFO 80284 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 11:43:49,751 INFO 80284 [egg-sequelize](5ms) Executed (default): INSERT INTO "book" ("Id","Name","Price","Author","MakeSource","BookCategoryId","Inventory","IsDeleted","IsSoldOut","CreatedDate") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING *;
+2019-11-17 11:53:39,702 INFO 85520 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 11:53:40,223 INFO 85520 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 11:53:40,225 INFO 85520 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 11:53:40,228 INFO 85520 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 11:53:40,230 INFO 85520 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 11:53:40,233 INFO 85520 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 11:53:40,236 INFO 85520 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 11:53:40,239 INFO 85520 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 11:53:40,241 INFO 85520 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 11:53:40,243 INFO 85520 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 11:53:40,244 INFO 85520 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 11:53:40,246 INFO 85520 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 11:53:40,248 INFO 85520 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 11:53:40,249 INFO 85520 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 11:53:40,716 INFO 85520 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:11:26,331 INFO 88612 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:11:26,856 INFO 88612 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:11:26,858 INFO 88612 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:11:26,860 INFO 88612 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:11:26,861 INFO 88612 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:11:26,862 INFO 88612 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:11:26,862 INFO 88612 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:11:26,863 INFO 88612 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:11:26,864 INFO 88612 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:11:26,865 INFO 88612 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:11:26,866 INFO 88612 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:11:26,867 INFO 88612 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:11:26,868 INFO 88612 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:11:26,870 INFO 88612 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:11:27,205 INFO 88612 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:11:27,234 INFO 88612 [egg-sequelize](26ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-11-17 12:11:27,239 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "setting" CASCADE;
+2019-11-17 12:11:27,246 INFO 88612 [egg-sequelize](2ms) Executed (default): DROP TABLE IF EXISTS "SequelizeMeta" CASCADE;
+2019-11-17 12:11:27,249 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "member" CASCADE;
+2019-11-17 12:11:27,260 INFO 88612 [egg-sequelize](7ms) Executed (default): DROP TABLE IF EXISTS "book" CASCADE;
+2019-11-17 12:11:27,266 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "dj-info" CASCADE;
+2019-11-17 12:11:27,271 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "borrowlog" CASCADE;
+2019-11-17 12:11:27,275 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "bookcategory" CASCADE;
+2019-11-17 12:11:27,283 INFO 88612 [egg-sequelize](5ms) Executed (default): DROP TABLE IF EXISTS "admins" CASCADE;
+2019-11-17 12:11:27,288 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "admin" CASCADE;
+2019-11-17 12:11:27,297 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "admin" CASCADE;
+2019-11-17 12:11:27,325 INFO 88612 [egg-sequelize](19ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,338 INFO 88612 [egg-sequelize](8ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,347 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "admins" CASCADE;
+2019-11-17 12:11:27,373 INFO 88612 [egg-sequelize](23ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:11:27,380 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,384 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "bookcategory" CASCADE;
+2019-11-17 12:11:27,402 INFO 88612 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,410 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,414 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "borrowlog" CASCADE;
+2019-11-17 12:11:27,432 INFO 88612 [egg-sequelize](15ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,439 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,444 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "dj-info" CASCADE;
+2019-11-17 12:11:27,463 INFO 88612 [egg-sequelize](14ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:11:27,468 INFO 88612 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,473 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "book" CASCADE;
+2019-11-17 12:11:27,498 INFO 88612 [egg-sequelize](22ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,505 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,512 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "member" CASCADE;
+2019-11-17 12:11:27,531 INFO 88612 [egg-sequelize](16ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,539 INFO 88612 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,549 INFO 88612 [egg-sequelize](1ms) Executed (default): DROP TABLE IF EXISTS "SequelizeMeta" CASCADE;
+2019-11-17 12:11:27,564 INFO 88612 [egg-sequelize](10ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:11:27,571 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,577 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "setting" CASCADE;
+2019-11-17 12:11:27,595 INFO 88612 [egg-sequelize](13ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:27,600 INFO 88612 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:27,607 INFO 88612 [egg-sequelize](0ms) Executed (default): DROP TABLE IF EXISTS "Users" CASCADE;
+2019-11-17 12:11:27,636 INFO 88612 [egg-sequelize](24ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:11:27,644 INFO 88612 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:56,848 INFO 88096 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:11:56,888 INFO 88096 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:11:56,890 INFO 88096 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:11:56,892 INFO 88096 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:11:56,895 INFO 88096 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:11:56,896 INFO 88096 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:11:56,898 INFO 88096 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:11:56,900 INFO 88096 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:11:56,901 INFO 88096 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:11:56,902 INFO 88096 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:11:56,904 INFO 88096 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:11:56,905 INFO 88096 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:11:56,906 INFO 88096 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:11:56,908 INFO 88096 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:11:57,332 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:11:57,337 INFO 88096 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,351 INFO 88096 [egg-sequelize](8ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,369 INFO 88096 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:11:57,376 INFO 88096 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,385 INFO 88096 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,392 INFO 88096 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,398 INFO 88096 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,403 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,408 INFO 88096 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:11:57,414 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,419 INFO 88096 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,425 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,431 INFO 88096 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,436 INFO 88096 [egg-sequelize](1ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,442 INFO 88096 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:11:57,447 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,453 INFO 88096 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:11:57,459 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:57,464 INFO 88096 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:11:57,469 INFO 88096 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:11:59,777 INFO 5676 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:11:59,812 INFO 5676 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:11:59,814 INFO 5676 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:11:59,816 INFO 5676 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:11:59,817 INFO 5676 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:11:59,818 INFO 5676 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:11:59,819 INFO 5676 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:11:59,820 INFO 5676 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:11:59,821 INFO 5676 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:11:59,822 INFO 5676 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:11:59,823 INFO 5676 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:11:59,824 INFO 5676 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:11:59,825 INFO 5676 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:11:59,826 INFO 5676 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:12:00,243 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:12:00,247 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,258 INFO 5676 [egg-sequelize](6ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,269 INFO 5676 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:12:00,274 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,279 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,284 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,290 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,295 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,300 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:12:00,305 INFO 5676 [egg-sequelize](1ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,315 INFO 5676 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,320 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,325 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,330 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,335 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:12:00,339 INFO 5676 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,344 INFO 5676 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:12:00,348 INFO 5676 [egg-sequelize](1ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:12:00,353 INFO 5676 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:12:00,357 INFO 5676 [egg-sequelize](1ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,153 INFO 82592 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:13:02,193 INFO 82592 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:13:02,195 INFO 82592 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:13:02,197 INFO 82592 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:13:02,198 INFO 82592 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:13:02,200 INFO 82592 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:13:02,201 INFO 82592 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:13:02,203 INFO 82592 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:13:02,204 INFO 82592 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:13:02,205 INFO 82592 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:13:02,206 INFO 82592 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:13:02,207 INFO 82592 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:13:02,208 INFO 82592 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:13:02,210 INFO 82592 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:13:02,621 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:13:02,625 INFO 82592 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,636 INFO 82592 [egg-sequelize](6ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,645 INFO 82592 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:13:02,653 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,659 INFO 82592 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,665 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,671 INFO 82592 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,676 INFO 82592 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,683 INFO 82592 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:13:02,692 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,701 INFO 82592 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,707 INFO 82592 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,713 INFO 82592 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,719 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,724 INFO 82592 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:13:02,730 INFO 82592 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,738 INFO 82592 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:02,744 INFO 82592 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:02,751 INFO 82592 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:13:02,756 INFO 82592 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:43,750 INFO 69312 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:13:43,786 INFO 69312 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:13:43,788 INFO 69312 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:13:43,790 INFO 69312 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:13:43,791 INFO 69312 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:13:43,792 INFO 69312 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:13:43,793 INFO 69312 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:13:43,794 INFO 69312 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:13:43,796 INFO 69312 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:13:43,797 INFO 69312 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:13:43,798 INFO 69312 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:13:43,800 INFO 69312 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:13:43,801 INFO 69312 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:13:43,803 INFO 69312 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:13:44,197 INFO 69312 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:13:44,205 INFO 69312 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,222 INFO 69312 [egg-sequelize](11ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,234 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:13:44,239 INFO 69312 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,246 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,254 INFO 69312 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,260 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,268 INFO 69312 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,294 INFO 69312 [egg-sequelize](18ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:13:44,301 INFO 69312 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,307 INFO 69312 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,314 INFO 69312 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,318 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,323 INFO 69312 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,328 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:13:44,335 INFO 69312 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,341 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:13:44,350 INFO 69312 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:13:44,355 INFO 69312 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:13:44,360 INFO 69312 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:26,828 INFO 88476 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:14:26,864 INFO 88476 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:14:26,866 INFO 88476 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:14:26,868 INFO 88476 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:14:26,869 INFO 88476 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:14:26,870 INFO 88476 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:14:26,871 INFO 88476 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:14:26,872 INFO 88476 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:14:26,873 INFO 88476 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:14:26,874 INFO 88476 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:14:26,875 INFO 88476 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:14:26,876 INFO 88476 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:14:26,877 INFO 88476 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:14:26,879 INFO 88476 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:14:27,294 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:14:27,301 INFO 88476 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,314 INFO 88476 [egg-sequelize](7ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,328 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:14:27,339 INFO 88476 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,347 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,354 INFO 88476 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,360 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,368 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,376 INFO 88476 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:14:27,383 INFO 88476 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,389 INFO 88476 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,396 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,403 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,410 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,416 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:14:27,422 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,427 INFO 88476 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:14:27,435 INFO 88476 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:14:27,441 INFO 88476 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:14:27,448 INFO 88476 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,051 INFO 88408 [egg-swagger-doc] register router: get /swagger-doc
+2019-11-17 12:15:14,087 INFO 88408 [egg-swagger-doc] register router: get /swagger-ui.html
+2019-11-17 12:15:14,089 INFO 88408 [egg-swagger-doc] register router: get /v1/admin/getAdmin for controller-admin-getAdmin 
+2019-11-17 12:15:14,091 INFO 88408 [egg-swagger-doc] register router: get /v1/admin/getAdmins for controller-admin-getAdmins 
+2019-11-17 12:15:14,092 INFO 88408 [egg-swagger-doc] register router: put /v1/admin/addAdmin for controller-admin-addAdmin 
+2019-11-17 12:15:14,092 INFO 88408 [egg-swagger-doc] register router: post /v1/admin/editAdmin for controller-admin-editAdmin 
+2019-11-17 12:15:14,093 INFO 88408 [egg-swagger-doc] register router: delete /v1/admin/deleteAdmin for controller-admin-deleteAdmin 
+2019-11-17 12:15:14,094 INFO 88408 [egg-swagger-doc] register router: get /v1/book/getBookById for controller-book-getBookById 
+2019-11-17 12:15:14,095 INFO 88408 [egg-swagger-doc] register router: get /v1/book/getBooks for controller-book-getBooks 
+2019-11-17 12:15:14,096 INFO 88408 [egg-swagger-doc] register router: put /v1/book/addBook for controller-book-addBook 
+2019-11-17 12:15:14,097 INFO 88408 [egg-swagger-doc] register router: post /v1/book/editBook for controller-book-editBook 
+2019-11-17 12:15:14,098 INFO 88408 [egg-swagger-doc] register router: delete /v1/book/deleteBook for controller-book-deleteBook 
+2019-11-17 12:15:14,099 INFO 88408 [egg-swagger-doc] register router: get /v1/book/getBookCategorys for controller-book-getBookCategorys 
+2019-11-17 12:15:14,100 INFO 88408 [egg-swagger-doc] register router: get /v1/member/selectMember for controller-member-selectMember 
+2019-11-17 12:15:14,487 INFO 88408 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-11-17 12:15:14,491 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admin" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Password" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,501 INFO 88408 [egg-sequelize](6ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admin' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,513 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "admins" ("id"   SERIAL , "Name" VARCHAR(255), "password" VARCHAR(255), "IsDeleted" INTEGER, "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:15:14,522 INFO 88408 [egg-sequelize](5ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'admins' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,528 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "bookcategory" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,535 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'bookcategory' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,550 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "borrowlog" ("Id"   SERIAL , "bookId" INTEGER NOT NULL, "adminId" INTEGER NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,558 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'borrowlog' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,584 INFO 88408 [egg-sequelize](17ms) Executed (default): CREATE TABLE IF NOT EXISTS "dj-info" ("id"   SERIAL , "height" REAL DEFAULT '180', "weight" REAL, "name" VARCHAR(255), "age" INTEGER, PRIMARY KEY ("id"));
+2019-11-17 12:15:14,591 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'dj-info' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,598 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "book" ("Id"   SERIAL , "Name" VARCHAR(255) NOT NULL, "Price" DECIMAL NOT NULL, "Author" VARCHAR(32) NOT NULL, "MakeSource" VARCHAR(255) NOT NULL, "BookCategoryId" VARCHAR(128) NOT NULL, "Inventory" INTEGER NOT NULL, "IsDeleted" INTEGER NOT NULL DEFAULT '0', "IsSoldOut" INTEGER NOT NULL DEFAULT '0', "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,608 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'book' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,613 INFO 88408 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "member" ("Id"   SERIAL , "Name" VARCHAR(32) NOT NULL, "Age" INTEGER NOT NULL, "Sex" VARCHAR(8) NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,620 INFO 88408 [egg-sequelize](4ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'member' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,625 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "SequelizeMeta" ("name" VARCHAR(255) NOT NULL , PRIMARY KEY ("name"));
+2019-11-17 12:15:14,631 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'SequelizeMeta' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,638 INFO 88408 [egg-sequelize](0ms) Executed (default): CREATE TABLE IF NOT EXISTS "setting" ("Id"   SERIAL , "BorrowTime" TIMESTAMP WITH TIME ZONE NOT NULL, "ReturnTime" TIMESTAMP WITH TIME ZONE NOT NULL, "CreatedDate" TIMESTAMP WITH TIME ZONE NOT NULL, "UpdatedDate" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("Id"));
+2019-11-17 12:15:14,645 INFO 88408 [egg-sequelize](3ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'setting' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+2019-11-17 12:15:14,652 INFO 88408 [egg-sequelize](1ms) Executed (default): CREATE TABLE IF NOT EXISTS "Users" ("id"   SERIAL , "firstName" VARCHAR(255), "lastName" VARCHAR(255), "email" VARCHAR(255), "createdAt" TIME NOT NULL, "updatedAt" TIME NOT NULL, PRIMARY KEY ("id"));
+2019-11-17 12:15:14,658 INFO 88408 [egg-sequelize](2ms) Executed (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Users' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;

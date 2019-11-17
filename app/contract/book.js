@@ -19,7 +19,7 @@ module.exports = {
         MakeSource: { type: 'string', required: true },   // 出版社
         BookCategoryId: { type: 'integer', required: true },   // 分类ID
         Inventory: { type: 'integer', required: true },   // 库存
-        IsSoldOut: { type: 'boolean', required: true }   // 下架
+        IsSoldOut: { type: 'integer', required: true }   // 下架
     },
     DeleteBookBookDto: {
         Id: { type: 'integer', required: true },    // ID

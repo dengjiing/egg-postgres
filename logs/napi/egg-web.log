@@ -50,3 +50,367 @@
 2019-11-16 16:53:30,762 INFO 15864 [egg:core] dump config after load, 5ms
 2019-11-16 16:53:30,823 INFO 15864 [egg-watcher:application] watcher start success
 2019-11-16 16:53:31,298 INFO 15864 [egg:core] dump config after ready, 5ms
+2019-11-17 09:22:38,653 INFO 80104 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:22:38,698 INFO 80104 [egg-multipart] stream mode enable
+2019-11-17 09:22:39,241 INFO 80104 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:22:39,247 INFO 80104 [egg-security] use methodnoallow middleware
+2019-11-17 09:22:39,249 INFO 80104 [egg-security] use noopen middleware
+2019-11-17 09:22:39,251 INFO 80104 [egg-security] use nosniff middleware
+2019-11-17 09:22:39,252 INFO 80104 [egg-security] use xssProtection middleware
+2019-11-17 09:22:39,252 INFO 80104 [egg-security] use xframe middleware
+2019-11-17 09:22:39,253 INFO 80104 [egg-security] use dta middleware
+2019-11-17 09:22:39,253 INFO 80104 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:22:39,273 INFO 80104 [egg:core] dump config after load, 9ms
+2019-11-17 09:22:39,410 INFO 80104 [egg-watcher:application] watcher start success
+2019-11-17 09:22:39,705 INFO 80104 [egg:core] dump config after ready, 14ms
+2019-11-17 09:26:14,813 INFO 80764 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:26:14,884 INFO 80764 [egg-multipart] stream mode enable
+2019-11-17 09:26:15,435 INFO 80764 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:26:15,439 INFO 80764 [egg-security] use methodnoallow middleware
+2019-11-17 09:26:15,440 INFO 80764 [egg-security] use noopen middleware
+2019-11-17 09:26:15,442 INFO 80764 [egg-security] use nosniff middleware
+2019-11-17 09:26:15,442 INFO 80764 [egg-security] use xssProtection middleware
+2019-11-17 09:26:15,443 INFO 80764 [egg-security] use xframe middleware
+2019-11-17 09:26:15,444 INFO 80764 [egg-security] use dta middleware
+2019-11-17 09:26:15,444 INFO 80764 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:26:15,463 INFO 80764 [egg:core] dump config after load, 10ms
+2019-11-17 09:26:15,603 INFO 80764 [egg-watcher:application] watcher start success
+2019-11-17 09:26:15,876 INFO 80764 [egg:core] dump config after ready, 15ms
+2019-11-17 09:31:27,267 INFO 11312 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:31:27,322 INFO 11312 [egg-multipart] stream mode enable
+2019-11-17 09:31:27,849 INFO 11312 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:31:27,853 INFO 11312 [egg-security] use methodnoallow middleware
+2019-11-17 09:31:27,854 INFO 11312 [egg-security] use noopen middleware
+2019-11-17 09:31:27,855 INFO 11312 [egg-security] use nosniff middleware
+2019-11-17 09:31:27,856 INFO 11312 [egg-security] use xssProtection middleware
+2019-11-17 09:31:27,856 INFO 11312 [egg-security] use xframe middleware
+2019-11-17 09:31:27,857 INFO 11312 [egg-security] use dta middleware
+2019-11-17 09:31:27,857 INFO 11312 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:31:27,876 INFO 11312 [egg:core] dump config after load, 10ms
+2019-11-17 09:31:27,994 INFO 11312 [egg-watcher:application] watcher start success
+2019-11-17 09:31:28,273 INFO 11312 [egg:core] dump config after ready, 16ms
+2019-11-17 09:31:29,775 INFO 81464 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:31:29,821 INFO 81464 [egg-multipart] stream mode enable
+2019-11-17 09:31:30,333 INFO 81464 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:31:30,338 INFO 81464 [egg-security] use methodnoallow middleware
+2019-11-17 09:31:30,340 INFO 81464 [egg-security] use noopen middleware
+2019-11-17 09:31:30,342 INFO 81464 [egg-security] use nosniff middleware
+2019-11-17 09:31:30,343 INFO 81464 [egg-security] use xssProtection middleware
+2019-11-17 09:31:30,343 INFO 81464 [egg-security] use xframe middleware
+2019-11-17 09:31:30,344 INFO 81464 [egg-security] use dta middleware
+2019-11-17 09:31:30,344 INFO 81464 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:31:30,367 INFO 81464 [egg:core] dump config after load, 10ms
+2019-11-17 09:31:30,487 INFO 81464 [egg-watcher:application] watcher start success
+2019-11-17 09:31:30,813 INFO 81464 [egg:core] dump config after ready, 13ms
+2019-11-17 09:31:51,813 INFO 80868 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:31:51,859 INFO 80868 [egg-multipart] stream mode enable
+2019-11-17 09:31:52,357 INFO 80868 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:31:52,361 INFO 80868 [egg-security] use methodnoallow middleware
+2019-11-17 09:31:52,362 INFO 80868 [egg-security] use noopen middleware
+2019-11-17 09:31:52,364 INFO 80868 [egg-security] use nosniff middleware
+2019-11-17 09:31:52,365 INFO 80868 [egg-security] use xssProtection middleware
+2019-11-17 09:31:52,365 INFO 80868 [egg-security] use xframe middleware
+2019-11-17 09:31:52,366 INFO 80868 [egg-security] use dta middleware
+2019-11-17 09:31:52,366 INFO 80868 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:31:52,384 INFO 80868 [egg:core] dump config after load, 9ms
+2019-11-17 09:31:52,499 INFO 80868 [egg-watcher:application] watcher start success
+2019-11-17 09:31:52,840 INFO 80868 [egg:core] dump config after ready, 12ms
+2019-11-17 09:31:54,241 INFO 77248 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:31:54,285 INFO 77248 [egg-multipart] stream mode enable
+2019-11-17 09:31:54,788 INFO 77248 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:31:54,792 INFO 77248 [egg-security] use methodnoallow middleware
+2019-11-17 09:31:54,793 INFO 77248 [egg-security] use noopen middleware
+2019-11-17 09:31:54,795 INFO 77248 [egg-security] use nosniff middleware
+2019-11-17 09:31:54,795 INFO 77248 [egg-security] use xssProtection middleware
+2019-11-17 09:31:54,796 INFO 77248 [egg-security] use xframe middleware
+2019-11-17 09:31:54,797 INFO 77248 [egg-security] use dta middleware
+2019-11-17 09:31:54,797 INFO 77248 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:31:54,815 INFO 77248 [egg:core] dump config after load, 9ms
+2019-11-17 09:31:54,927 INFO 77248 [egg-watcher:application] watcher start success
+2019-11-17 09:31:55,200 INFO 77248 [egg:core] dump config after ready, 12ms
+2019-11-17 09:39:25,649 INFO 81264 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:39:25,706 INFO 81264 [egg-multipart] stream mode enable
+2019-11-17 09:39:26,257 INFO 81264 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:39:26,262 INFO 81264 [egg-security] use methodnoallow middleware
+2019-11-17 09:39:26,263 INFO 81264 [egg-security] use noopen middleware
+2019-11-17 09:39:26,265 INFO 81264 [egg-security] use nosniff middleware
+2019-11-17 09:39:26,266 INFO 81264 [egg-security] use xssProtection middleware
+2019-11-17 09:39:26,267 INFO 81264 [egg-security] use xframe middleware
+2019-11-17 09:39:26,268 INFO 81264 [egg-security] use dta middleware
+2019-11-17 09:39:26,268 INFO 81264 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:39:26,288 INFO 81264 [egg:core] dump config after load, 9ms
+2019-11-17 09:39:26,436 INFO 81264 [egg-watcher:application] watcher start success
+2019-11-17 09:39:26,773 INFO 81264 [egg:core] dump config after ready, 12ms
+2019-11-17 09:40:00,319 INFO 77324 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:40:00,368 INFO 77324 [egg-multipart] stream mode enable
+2019-11-17 09:40:00,963 INFO 77324 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:40:00,967 INFO 77324 [egg-security] use methodnoallow middleware
+2019-11-17 09:40:00,968 INFO 77324 [egg-security] use noopen middleware
+2019-11-17 09:40:00,969 INFO 77324 [egg-security] use nosniff middleware
+2019-11-17 09:40:00,970 INFO 77324 [egg-security] use xssProtection middleware
+2019-11-17 09:40:00,971 INFO 77324 [egg-security] use xframe middleware
+2019-11-17 09:40:00,972 INFO 77324 [egg-security] use dta middleware
+2019-11-17 09:40:00,972 INFO 77324 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:40:01,002 INFO 77324 [egg:core] dump config after load, 13ms
+2019-11-17 09:40:01,231 INFO 77324 [egg-watcher:application] watcher start success
+2019-11-17 09:40:01,595 INFO 77324 [egg:core] dump config after ready, 16ms
+2019-11-17 09:40:32,574 INFO 79700 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:40:32,627 INFO 79700 [egg-multipart] stream mode enable
+2019-11-17 09:40:33,224 INFO 79700 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:40:33,229 INFO 79700 [egg-security] use methodnoallow middleware
+2019-11-17 09:40:33,230 INFO 79700 [egg-security] use noopen middleware
+2019-11-17 09:40:33,232 INFO 79700 [egg-security] use nosniff middleware
+2019-11-17 09:40:33,232 INFO 79700 [egg-security] use xssProtection middleware
+2019-11-17 09:40:33,233 INFO 79700 [egg-security] use xframe middleware
+2019-11-17 09:40:33,234 INFO 79700 [egg-security] use dta middleware
+2019-11-17 09:40:33,234 INFO 79700 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:40:33,254 INFO 79700 [egg:core] dump config after load, 9ms
+2019-11-17 09:40:33,375 INFO 79700 [egg-watcher:application] watcher start success
+2019-11-17 09:40:33,733 INFO 79700 [egg:core] dump config after ready, 14ms
+2019-11-17 09:40:35,353 INFO 83008 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 09:40:35,402 INFO 83008 [egg-multipart] stream mode enable
+2019-11-17 09:40:35,952 INFO 83008 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 09:40:35,957 INFO 83008 [egg-security] use methodnoallow middleware
+2019-11-17 09:40:35,958 INFO 83008 [egg-security] use noopen middleware
+2019-11-17 09:40:35,960 INFO 83008 [egg-security] use nosniff middleware
+2019-11-17 09:40:35,961 INFO 83008 [egg-security] use xssProtection middleware
+2019-11-17 09:40:35,962 INFO 83008 [egg-security] use xframe middleware
+2019-11-17 09:40:35,963 INFO 83008 [egg-security] use dta middleware
+2019-11-17 09:40:35,963 INFO 83008 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 09:40:35,983 INFO 83008 [egg:core] dump config after load, 11ms
+2019-11-17 09:40:36,109 INFO 83008 [egg-watcher:application] watcher start success
+2019-11-17 09:40:36,467 INFO 83008 [egg:core] dump config after ready, 14ms
+2019-11-17 11:20:41,120 INFO 11820 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:20:41,170 INFO 11820 [egg-multipart] stream mode enable
+2019-11-17 11:20:42,571 INFO 11820 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:20:42,582 INFO 11820 [egg-security] use methodnoallow middleware
+2019-11-17 11:20:42,584 INFO 11820 [egg-security] use noopen middleware
+2019-11-17 11:20:42,586 INFO 11820 [egg-security] use nosniff middleware
+2019-11-17 11:20:42,587 INFO 11820 [egg-security] use xssProtection middleware
+2019-11-17 11:20:42,588 INFO 11820 [egg-security] use xframe middleware
+2019-11-17 11:20:42,590 INFO 11820 [egg-security] use dta middleware
+2019-11-17 11:20:42,590 INFO 11820 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:20:42,618 INFO 11820 [egg:core] dump config after load, 12ms
+2019-11-17 11:20:42,744 INFO 11820 [egg-watcher:application] watcher start success
+2019-11-17 11:20:43,100 INFO 11820 [egg:core] dump config after ready, 14ms
+2019-11-17 11:20:44,630 INFO 85040 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:20:44,675 INFO 85040 [egg-multipart] stream mode enable
+2019-11-17 11:20:45,162 INFO 85040 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:20:45,166 INFO 85040 [egg-security] use methodnoallow middleware
+2019-11-17 11:20:45,167 INFO 85040 [egg-security] use noopen middleware
+2019-11-17 11:20:45,168 INFO 85040 [egg-security] use nosniff middleware
+2019-11-17 11:20:45,169 INFO 85040 [egg-security] use xssProtection middleware
+2019-11-17 11:20:45,169 INFO 85040 [egg-security] use xframe middleware
+2019-11-17 11:20:45,170 INFO 85040 [egg-security] use dta middleware
+2019-11-17 11:20:45,170 INFO 85040 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:20:45,190 INFO 85040 [egg:core] dump config after load, 10ms
+2019-11-17 11:20:45,302 INFO 85040 [egg-watcher:application] watcher start success
+2019-11-17 11:20:45,618 INFO 85040 [egg:core] dump config after ready, 12ms
+2019-11-17 11:24:31,292 INFO 10864 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:24:31,337 INFO 10864 [egg-multipart] stream mode enable
+2019-11-17 11:24:31,891 INFO 10864 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:24:31,896 INFO 10864 [egg-security] use methodnoallow middleware
+2019-11-17 11:24:31,897 INFO 10864 [egg-security] use noopen middleware
+2019-11-17 11:24:31,898 INFO 10864 [egg-security] use nosniff middleware
+2019-11-17 11:24:31,899 INFO 10864 [egg-security] use xssProtection middleware
+2019-11-17 11:24:31,900 INFO 10864 [egg-security] use xframe middleware
+2019-11-17 11:24:31,901 INFO 10864 [egg-security] use dta middleware
+2019-11-17 11:24:31,901 INFO 10864 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:24:31,920 INFO 10864 [egg:core] dump config after load, 10ms
+2019-11-17 11:24:32,038 INFO 10864 [egg-watcher:application] watcher start success
+2019-11-17 11:24:32,301 INFO 10864 [egg:core] dump config after ready, 11ms
+2019-11-17 11:24:33,810 INFO 47892 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:24:33,868 INFO 47892 [egg-multipart] stream mode enable
+2019-11-17 11:24:34,385 INFO 47892 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:24:34,389 INFO 47892 [egg-security] use methodnoallow middleware
+2019-11-17 11:24:34,390 INFO 47892 [egg-security] use noopen middleware
+2019-11-17 11:24:34,392 INFO 47892 [egg-security] use nosniff middleware
+2019-11-17 11:24:34,392 INFO 47892 [egg-security] use xssProtection middleware
+2019-11-17 11:24:34,393 INFO 47892 [egg-security] use xframe middleware
+2019-11-17 11:24:34,394 INFO 47892 [egg-security] use dta middleware
+2019-11-17 11:24:34,394 INFO 47892 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:24:34,414 INFO 47892 [egg:core] dump config after load, 10ms
+2019-11-17 11:24:34,527 INFO 47892 [egg-watcher:application] watcher start success
+2019-11-17 11:24:34,922 INFO 47892 [egg:core] dump config after ready, 17ms
+2019-11-17 11:25:12,102 INFO 85096 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:12,160 INFO 85096 [egg-multipart] stream mode enable
+2019-11-17 11:25:13,018 INFO 85096 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:13,023 INFO 85096 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:13,025 INFO 85096 [egg-security] use noopen middleware
+2019-11-17 11:25:13,027 INFO 85096 [egg-security] use nosniff middleware
+2019-11-17 11:25:13,029 INFO 85096 [egg-security] use xssProtection middleware
+2019-11-17 11:25:13,030 INFO 85096 [egg-security] use xframe middleware
+2019-11-17 11:25:13,031 INFO 85096 [egg-security] use dta middleware
+2019-11-17 11:25:13,031 INFO 85096 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:13,052 INFO 85096 [egg:core] dump config after load, 11ms
+2019-11-17 11:25:13,190 INFO 85096 [egg-watcher:application] watcher start success
+2019-11-17 11:25:13,663 INFO 85096 [egg:core] dump config after ready, 20ms
+2019-11-17 11:25:16,148 INFO 84144 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:16,197 INFO 84144 [egg-multipart] stream mode enable
+2019-11-17 11:25:16,789 INFO 84144 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:16,795 INFO 84144 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:16,796 INFO 84144 [egg-security] use noopen middleware
+2019-11-17 11:25:16,798 INFO 84144 [egg-security] use nosniff middleware
+2019-11-17 11:25:16,799 INFO 84144 [egg-security] use xssProtection middleware
+2019-11-17 11:25:16,800 INFO 84144 [egg-security] use xframe middleware
+2019-11-17 11:25:16,800 INFO 84144 [egg-security] use dta middleware
+2019-11-17 11:25:16,800 INFO 84144 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:16,825 INFO 84144 [egg:core] dump config after load, 11ms
+2019-11-17 11:25:16,940 INFO 84144 [egg-watcher:application] watcher start success
+2019-11-17 11:25:17,294 INFO 84144 [egg:core] dump config after ready, 13ms
+2019-11-17 11:25:28,598 INFO 86280 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:28,647 INFO 86280 [egg-multipart] stream mode enable
+2019-11-17 11:25:29,174 INFO 86280 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:29,180 INFO 86280 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:29,181 INFO 86280 [egg-security] use noopen middleware
+2019-11-17 11:25:29,183 INFO 86280 [egg-security] use nosniff middleware
+2019-11-17 11:25:29,184 INFO 86280 [egg-security] use xssProtection middleware
+2019-11-17 11:25:29,185 INFO 86280 [egg-security] use xframe middleware
+2019-11-17 11:25:29,185 INFO 86280 [egg-security] use dta middleware
+2019-11-17 11:25:29,185 INFO 86280 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:29,208 INFO 86280 [egg:core] dump config after load, 11ms
+2019-11-17 11:25:29,323 INFO 86280 [egg-watcher:application] watcher start success
+2019-11-17 11:25:29,635 INFO 86280 [egg:core] dump config after ready, 13ms
+2019-11-17 11:25:31,222 INFO 85708 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:31,276 INFO 85708 [egg-multipart] stream mode enable
+2019-11-17 11:25:31,899 INFO 85708 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:31,903 INFO 85708 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:31,904 INFO 85708 [egg-security] use noopen middleware
+2019-11-17 11:25:31,905 INFO 85708 [egg-security] use nosniff middleware
+2019-11-17 11:25:31,906 INFO 85708 [egg-security] use xssProtection middleware
+2019-11-17 11:25:31,907 INFO 85708 [egg-security] use xframe middleware
+2019-11-17 11:25:31,907 INFO 85708 [egg-security] use dta middleware
+2019-11-17 11:25:31,907 INFO 85708 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:31,928 INFO 85708 [egg:core] dump config after load, 12ms
+2019-11-17 11:25:32,041 INFO 85708 [egg-watcher:application] watcher start success
+2019-11-17 11:25:32,320 INFO 85708 [egg:core] dump config after ready, 11ms
+2019-11-17 11:25:34,204 INFO 84768 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:34,252 INFO 84768 [egg-multipart] stream mode enable
+2019-11-17 11:25:34,832 INFO 84768 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:34,836 INFO 84768 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:34,837 INFO 84768 [egg-security] use noopen middleware
+2019-11-17 11:25:34,839 INFO 84768 [egg-security] use nosniff middleware
+2019-11-17 11:25:34,840 INFO 84768 [egg-security] use xssProtection middleware
+2019-11-17 11:25:34,841 INFO 84768 [egg-security] use xframe middleware
+2019-11-17 11:25:34,841 INFO 84768 [egg-security] use dta middleware
+2019-11-17 11:25:34,841 INFO 84768 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:34,859 INFO 84768 [egg:core] dump config after load, 9ms
+2019-11-17 11:25:34,971 INFO 84768 [egg-watcher:application] watcher start success
+2019-11-17 11:25:35,249 INFO 84768 [egg:core] dump config after ready, 12ms
+2019-11-17 11:25:36,758 INFO 80284 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:25:36,818 INFO 80284 [egg-multipart] stream mode enable
+2019-11-17 11:25:37,375 INFO 80284 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:25:37,379 INFO 80284 [egg-security] use methodnoallow middleware
+2019-11-17 11:25:37,381 INFO 80284 [egg-security] use noopen middleware
+2019-11-17 11:25:37,382 INFO 80284 [egg-security] use nosniff middleware
+2019-11-17 11:25:37,383 INFO 80284 [egg-security] use xssProtection middleware
+2019-11-17 11:25:37,384 INFO 80284 [egg-security] use xframe middleware
+2019-11-17 11:25:37,385 INFO 80284 [egg-security] use dta middleware
+2019-11-17 11:25:37,385 INFO 80284 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:25:37,407 INFO 80284 [egg:core] dump config after load, 13ms
+2019-11-17 11:25:37,514 INFO 80284 [egg-watcher:application] watcher start success
+2019-11-17 11:25:37,869 INFO 80284 [egg:core] dump config after ready, 14ms
+2019-11-17 11:53:37,094 INFO 85520 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 11:53:37,166 INFO 85520 [egg-multipart] stream mode enable
+2019-11-17 11:53:39,638 INFO 85520 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 11:53:39,660 INFO 85520 [egg-security] use methodnoallow middleware
+2019-11-17 11:53:39,661 INFO 85520 [egg-security] use noopen middleware
+2019-11-17 11:53:39,663 INFO 85520 [egg-security] use nosniff middleware
+2019-11-17 11:53:39,664 INFO 85520 [egg-security] use xssProtection middleware
+2019-11-17 11:53:39,665 INFO 85520 [egg-security] use xframe middleware
+2019-11-17 11:53:39,666 INFO 85520 [egg-security] use dta middleware
+2019-11-17 11:53:39,666 INFO 85520 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 11:53:39,686 INFO 85520 [egg:core] dump config after load, 10ms
+2019-11-17 11:53:40,311 INFO 85520 [egg-watcher:application] watcher start success
+2019-11-17 11:53:40,741 INFO 85520 [egg:core] dump config after ready, 17ms
+2019-11-17 12:11:25,314 INFO 88612 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:11:25,360 INFO 88612 [egg-multipart] stream mode enable
+2019-11-17 12:11:26,271 INFO 88612 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:11:26,277 INFO 88612 [egg-security] use methodnoallow middleware
+2019-11-17 12:11:26,278 INFO 88612 [egg-security] use noopen middleware
+2019-11-17 12:11:26,281 INFO 88612 [egg-security] use nosniff middleware
+2019-11-17 12:11:26,282 INFO 88612 [egg-security] use xssProtection middleware
+2019-11-17 12:11:26,283 INFO 88612 [egg-security] use xframe middleware
+2019-11-17 12:11:26,284 INFO 88612 [egg-security] use dta middleware
+2019-11-17 12:11:26,284 INFO 88612 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:11:26,312 INFO 88612 [egg:core] dump config after load, 15ms
+2019-11-17 12:11:26,942 INFO 88612 [egg-watcher:application] watcher start success
+2019-11-17 12:11:27,670 INFO 88612 [egg:core] dump config after ready, 20ms
+2019-11-17 12:11:56,232 INFO 88096 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:11:56,277 INFO 88096 [egg-multipart] stream mode enable
+2019-11-17 12:11:56,799 INFO 88096 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:11:56,803 INFO 88096 [egg-security] use methodnoallow middleware
+2019-11-17 12:11:56,804 INFO 88096 [egg-security] use noopen middleware
+2019-11-17 12:11:56,806 INFO 88096 [egg-security] use nosniff middleware
+2019-11-17 12:11:56,807 INFO 88096 [egg-security] use xssProtection middleware
+2019-11-17 12:11:56,808 INFO 88096 [egg-security] use xframe middleware
+2019-11-17 12:11:56,808 INFO 88096 [egg-security] use dta middleware
+2019-11-17 12:11:56,808 INFO 88096 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:11:56,826 INFO 88096 [egg:core] dump config after load, 9ms
+2019-11-17 12:11:56,970 INFO 88096 [egg-watcher:application] watcher start success
+2019-11-17 12:11:57,496 INFO 88096 [egg:core] dump config after ready, 18ms
+2019-11-17 12:11:59,177 INFO 5676 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:11:59,222 INFO 5676 [egg-multipart] stream mode enable
+2019-11-17 12:11:59,734 INFO 5676 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:11:59,738 INFO 5676 [egg-security] use methodnoallow middleware
+2019-11-17 12:11:59,739 INFO 5676 [egg-security] use noopen middleware
+2019-11-17 12:11:59,741 INFO 5676 [egg-security] use nosniff middleware
+2019-11-17 12:11:59,741 INFO 5676 [egg-security] use xssProtection middleware
+2019-11-17 12:11:59,742 INFO 5676 [egg-security] use xframe middleware
+2019-11-17 12:11:59,743 INFO 5676 [egg-security] use dta middleware
+2019-11-17 12:11:59,743 INFO 5676 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:11:59,762 INFO 5676 [egg:core] dump config after load, 10ms
+2019-11-17 12:11:59,892 INFO 5676 [egg-watcher:application] watcher start success
+2019-11-17 12:12:00,375 INFO 5676 [egg:core] dump config after ready, 11ms
+2019-11-17 12:13:01,550 INFO 82592 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:13:01,594 INFO 82592 [egg-multipart] stream mode enable
+2019-11-17 12:13:02,110 INFO 82592 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:13:02,114 INFO 82592 [egg-security] use methodnoallow middleware
+2019-11-17 12:13:02,115 INFO 82592 [egg-security] use noopen middleware
+2019-11-17 12:13:02,117 INFO 82592 [egg-security] use nosniff middleware
+2019-11-17 12:13:02,117 INFO 82592 [egg-security] use xssProtection middleware
+2019-11-17 12:13:02,118 INFO 82592 [egg-security] use xframe middleware
+2019-11-17 12:13:02,118 INFO 82592 [egg-security] use dta middleware
+2019-11-17 12:13:02,119 INFO 82592 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:13:02,138 INFO 82592 [egg:core] dump config after load, 10ms
+2019-11-17 12:13:02,300 INFO 82592 [egg-watcher:application] watcher start success
+2019-11-17 12:13:02,781 INFO 82592 [egg:core] dump config after ready, 17ms
+2019-11-17 12:13:43,142 INFO 69312 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:13:43,192 INFO 69312 [egg-multipart] stream mode enable
+2019-11-17 12:13:43,709 INFO 69312 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:13:43,713 INFO 69312 [egg-security] use methodnoallow middleware
+2019-11-17 12:13:43,714 INFO 69312 [egg-security] use noopen middleware
+2019-11-17 12:13:43,715 INFO 69312 [egg-security] use nosniff middleware
+2019-11-17 12:13:43,716 INFO 69312 [egg-security] use xssProtection middleware
+2019-11-17 12:13:43,716 INFO 69312 [egg-security] use xframe middleware
+2019-11-17 12:13:43,717 INFO 69312 [egg-security] use dta middleware
+2019-11-17 12:13:43,717 INFO 69312 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:13:43,736 INFO 69312 [egg:core] dump config after load, 9ms
+2019-11-17 12:13:43,881 INFO 69312 [egg-watcher:application] watcher start success
+2019-11-17 12:13:44,387 INFO 69312 [egg:core] dump config after ready, 17ms
+2019-11-17 12:14:26,190 INFO 88476 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:14:26,237 INFO 88476 [egg-multipart] stream mode enable
+2019-11-17 12:14:26,784 INFO 88476 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:14:26,789 INFO 88476 [egg-security] use methodnoallow middleware
+2019-11-17 12:14:26,790 INFO 88476 [egg-security] use noopen middleware
+2019-11-17 12:14:26,792 INFO 88476 [egg-security] use nosniff middleware
+2019-11-17 12:14:26,793 INFO 88476 [egg-security] use xssProtection middleware
+2019-11-17 12:14:26,793 INFO 88476 [egg-security] use xframe middleware
+2019-11-17 12:14:26,794 INFO 88476 [egg-security] use dta middleware
+2019-11-17 12:14:26,794 INFO 88476 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:14:26,813 INFO 88476 [egg:core] dump config after load, 9ms
+2019-11-17 12:14:26,959 INFO 88476 [egg-watcher:application] watcher start success
+2019-11-17 12:14:27,474 INFO 88476 [egg:core] dump config after ready, 18ms
+2019-11-17 12:15:13,416 INFO 88408 [egg:logger] init all loggers with options: {"dir":"F:\\dengjing\\egg\\egg-postgres\\logs\\napi","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"napi-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-17 12:15:13,461 INFO 88408 [egg-multipart] stream mode enable
+2019-11-17 12:15:14,008 INFO 88408 [egg-static] starting static serve /public/ -> F:\dengjing\egg\egg-postgres\app\public
+2019-11-17 12:15:14,012 INFO 88408 [egg-security] use methodnoallow middleware
+2019-11-17 12:15:14,013 INFO 88408 [egg-security] use noopen middleware
+2019-11-17 12:15:14,014 INFO 88408 [egg-security] use nosniff middleware
+2019-11-17 12:15:14,015 INFO 88408 [egg-security] use xssProtection middleware
+2019-11-17 12:15:14,016 INFO 88408 [egg-security] use xframe middleware
+2019-11-17 12:15:14,016 INFO 88408 [egg-security] use dta middleware
+2019-11-17 12:15:14,016 INFO 88408 [egg-security] compose 6 middlewares into one security middleware
+2019-11-17 12:15:14,036 INFO 88408 [egg:core] dump config after load, 9ms
+2019-11-17 12:15:14,177 INFO 88408 [egg-watcher:application] watcher start success
+2019-11-17 12:15:14,685 INFO 88408 [egg:core] dump config after ready, 19ms

@@ -12,7 +12,9 @@
     "db:migrate": "sequelize --options-path=database/options.js db:migrate",
     "migrate:new": "egg-sequelize migration:create",
     "migrate:up": "egg-sequelize db:migrate",
-    "migrate:down": "egg-sequelize db:migrate:undo"
+    "migrate:down": "egg-sequelize db:migrate:undo",
+    "dbload": "egg-sequelize-auto -o ./app/model -h localhost -p 5432  --dialect postgres -d postgresnode -u postgres -x 123",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "napi",

@@ -22,3 +22,111 @@
 2019-11-16 16:53:31,302 INFO 21484 [Timer] F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41788700ms at 2019-11-17 04:30:00.002
 2019-11-16 16:53:31,303 INFO 21484 [Timer] F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25588698ms at 2019-11-17 00:00:00.001
 2019-11-16 16:53:31,303 INFO 21484 [Timer] F:\邓静6\项目汇总\代码学习\egg\NodeJs_demo-master\NodeJs_demo-master\node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25589697ms at 2019-11-17 00:00:01.000
+2019-11-17 09:22:38,697 INFO 80104 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:22:38,697 INFO 80104 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:22:38,697 INFO 80104 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:22:39,720 INFO 82360 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68840285ms at 2019-11-18 04:30:00.004
+2019-11-17 09:22:39,720 INFO 82360 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52640280ms at 2019-11-18 00:00:00.000
+2019-11-17 09:22:39,721 INFO 82360 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52641280ms at 2019-11-18 00:00:01.001
+2019-11-17 09:26:14,883 INFO 80764 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:26:14,883 INFO 80764 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:26:14,883 INFO 80764 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:26:15,888 INFO 82824 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68624116ms at 2019-11-18 04:30:00.004
+2019-11-17 09:26:15,889 INFO 82824 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52424111ms at 2019-11-18 00:00:00.000
+2019-11-17 09:26:15,890 INFO 82824 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52425111ms at 2019-11-18 00:00:01.001
+2019-11-17 09:31:27,321 INFO 11312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:31:27,321 INFO 11312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:31:27,321 INFO 11312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:31:29,820 INFO 81464 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:31:29,820 INFO 81464 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:31:29,820 INFO 81464 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:31:51,858 INFO 80868 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:31:51,858 INFO 80868 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:31:51,858 INFO 80868 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:31:54,284 INFO 77248 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:31:54,284 INFO 77248 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:31:54,285 INFO 77248 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:39:25,705 INFO 81264 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:39:25,706 INFO 81264 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:39:25,706 INFO 81264 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:40:00,367 INFO 77324 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:40:00,367 INFO 77324 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:40:00,367 INFO 77324 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:40:01,611 INFO 81972 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67798396ms at 2019-11-18 04:30:00.007
+2019-11-17 09:40:01,612 INFO 81972 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51598388ms at 2019-11-18 00:00:00.000
+2019-11-17 09:40:01,613 INFO 81972 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51599388ms at 2019-11-18 00:00:01.001
+2019-11-17 09:40:32,626 INFO 79700 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:40:32,627 INFO 79700 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:40:32,627 INFO 79700 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 09:40:35,401 INFO 83008 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 09:40:35,401 INFO 83008 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 09:40:35,401 INFO 83008 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:20:41,169 INFO 11820 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:20:41,169 INFO 11820 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:20:41,169 INFO 11820 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:20:44,674 INFO 85040 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:20:44,674 INFO 85040 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:20:44,674 INFO 85040 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:24:31,336 INFO 10864 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:24:31,336 INFO 10864 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:24:31,336 INFO 10864 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:24:33,867 INFO 47892 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:24:33,867 INFO 47892 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:24:33,867 INFO 47892 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:12,159 INFO 85096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:12,159 INFO 85096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:12,159 INFO 85096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:16,196 INFO 84144 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:16,196 INFO 84144 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:16,196 INFO 84144 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:28,646 INFO 86280 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:28,646 INFO 86280 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:28,646 INFO 86280 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:31,275 INFO 85708 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:31,275 INFO 85708 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:31,275 INFO 85708 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:34,251 INFO 84768 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:34,251 INFO 84768 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:34,251 INFO 84768 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:25:36,817 INFO 80284 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:25:36,817 INFO 80284 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:25:36,817 INFO 80284 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 11:53:37,165 INFO 85520 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 11:53:37,165 INFO 85520 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 11:53:37,165 INFO 85520 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:11:25,359 INFO 88612 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:11:25,359 INFO 88612 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:11:25,359 INFO 88612 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:11:27,687 INFO 88712 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 58712321ms at 2019-11-18 04:30:00.008
+2019-11-17 12:11:27,688 INFO 88712 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42512313ms at 2019-11-18 00:00:00.001
+2019-11-17 12:11:27,689 INFO 88712 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42513312ms at 2019-11-18 00:00:01.001
+2019-11-17 12:11:56,276 INFO 88096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:11:56,276 INFO 88096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:11:56,276 INFO 88096 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:11:59,221 INFO 5676 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:11:59,221 INFO 5676 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:11:59,221 INFO 5676 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:13:01,593 INFO 82592 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:13:01,593 INFO 82592 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:13:01,594 INFO 82592 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:13:02,794 INFO 88640 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 58617210ms at 2019-11-18 04:30:00.004
+2019-11-17 12:13:02,795 INFO 88640 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42417205ms at 2019-11-18 00:00:00.000
+2019-11-17 12:13:02,795 INFO 88640 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42418205ms at 2019-11-18 00:00:01.000
+2019-11-17 12:13:43,191 INFO 69312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:13:43,191 INFO 69312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:13:43,191 INFO 69312 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:13:44,404 INFO 87732 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 58575603ms at 2019-11-18 04:30:00.007
+2019-11-17 12:13:44,404 INFO 87732 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42375596ms at 2019-11-18 00:00:00.000
+2019-11-17 12:13:44,405 INFO 87732 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42376596ms at 2019-11-18 00:00:01.001
+2019-11-17 12:14:26,236 INFO 88476 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:14:26,236 INFO 88476 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:14:26,236 INFO 88476 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:14:27,490 INFO 11880 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 58532515ms at 2019-11-18 04:30:00.005
+2019-11-17 12:14:27,490 INFO 11880 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42332510ms at 2019-11-18 00:00:00.000
+2019-11-17 12:14:27,491 INFO 11880 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42333510ms at 2019-11-18 00:00:01.001
+2019-11-17 12:15:13,460 INFO 88408 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-17 12:15:13,460 INFO 88408 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-17 12:15:13,460 INFO 88408 [egg-schedule]: register schedule F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-17 12:15:14,703 INFO 11616 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 58485304ms at 2019-11-18 04:30:00.007
+2019-11-17 12:15:14,703 INFO 11616 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 42285297ms at 2019-11-18 00:00:00.000
+2019-11-17 12:15:14,704 INFO 11616 [Timer] F:\dengjing\egg\egg-postgres\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 42286296ms at 2019-11-18 00:00:01.000

@@ -5,49 +5,51 @@ module.exports = app => {
 
   const Model = app.model.define('book', {
     Id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER(11),
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
     Name: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    Author: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(255),
       allowNull: false
     },
     Price: {
-      type: DataTypes.STRING,
+      type: DataTypes.DECIMAL,
+      allowNull: false
+    },
+    Author: {
+      type: DataTypes.STRING(32),
       allowNull: false
     },
     MakeSource: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(255),
       allowNull: false
     },
     BookCategoryId: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(128),
       allowNull: false
     },
     Inventory: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER(11),
       allowNull: false
     },
     IsDeleted: {
-      type: DataTypes.INTEGER,
-      allowNull: true
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
     },
     IsSoldOut: {
-      type: DataTypes.INTEGER,
-      allowNull: true
+      type: DataTypes.INTEGER(1),
+      allowNull: false,
+      defaultValue: '0'
     },
     CreatedDate: {
-      type: DataTypes.TIME,
-      allowNull: true
+      type: DataTypes.DATE,
+      allowNull: false
     },
     UpdatedDate: {
-      type: DataTypes.TIME,
+      type: DataTypes.DATE,
       allowNull: true
     }
   }, {

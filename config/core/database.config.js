@@ -15,7 +15,7 @@ module.exports = {
     port: 5432, // 数据库连接端口号
     database: "postgresnode", // 数据库名称
     username: "postgres",   // 数据库登录用户名
-    password: '',   // 数据库登录密码
+    password: '123',   // 数据库登录密码
     define: {
         freezeTableName: true,
         timestamps: false
