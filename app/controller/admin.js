@@ -5,7 +5,7 @@
  * 文件名称：admin.js
  * 文件描述：学生接口
  * 创建时间：2019/10/25
- * 编写作者：noMonkSoul
+ * 编写作者：nodengjing
  * 修改时间：NONE
  */
 
@@ -51,6 +51,7 @@ class AdminController extends Controller {
         const pageSize = ctx.query.pageSize || 10;
 
         const results = await service.admin.getDatasByPage(pageIndex, pageSize, whereSql, `Id,Name,DATE_FORMAT(CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate`);
+        console.log('获取所有admin', results)
         this.jsonBody(results);
     }
 

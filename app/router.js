@@ -5,10 +5,11 @@
  * 文件名称：router.js
  * 文件描述：路由配置
  * 创建时间：2019/10/25
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
+ // 根据model自动创建表
 module.exports = app => {
     app.beforeStart(async()=>{
         await app.model.sync({ force: false });

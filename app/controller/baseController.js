@@ -5,7 +5,7 @@
  * 文件名称：baseController.js
  * 文件描述：父控制器类
  * 创建时间：2019/10/28
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
@@ -18,13 +18,12 @@ class BaseController extends Controller {
      */
     jsonBody(data) {
         var success = true;
-
         if (typeof data === "boolean") success = data;
         else success = data ? true : false;
-
         this.ctx.body = {
+            code:'0',
             success: success,
-            results: data
+            data: data
         };
     }
 };

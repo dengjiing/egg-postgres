@@ -5,7 +5,7 @@
  * 文件名称：book.js
  * 文件描述：图书业务类
  * 创建时间：2019/10/25
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
@@ -23,8 +23,8 @@ class BookService extends Service {
     async getAll(whereSql) {
         const { ctx } = this;
         whereSql = whereSql || '1=1';
-
-        const [ result ] = await ctx.model.query(`select b.Id,b.Name,b.Price,b.Author,b.MakeSource,b.Inventory,b.IsSoldOut,DATE_FORMAT(b.CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate,bc.Name Category from ${this.tableName} ${whereSql}`);
+        // const [ result ] = await ctx.model.query(`select b.Id,b.Name,b.Price,b.Author,b.MakeSource,b.Inventory,b.IsSoldOut,DATE_FORMAT(b.CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate,bc.Name Category from ${this.tableName} ${whereSql}`);
+        const [ result ] = await ctx.model.query(`select b.id,b.name,b.price,b.author,b.make_source,b.inventory,b.is_sold_out, b.created_date,bc.name Category from ${this.tableName} ${whereSql}`);
         return result;
     }
 
@@ -37,8 +37,8 @@ class BookService extends Service {
         const tableName = 'bookCategory';
         whereSql = whereSql || 'where 1=1';
 
-        console.log('=============',`select Id,Name from ${tableName} ${whereSql}`);
-        const [ result ] = await ctx.model.query(`select Id,Name from ${tableName} ${whereSql}`);
+        console.log('=============',`select Id,name from ${tableName} ${whereSql}`);
+        const [ result ] = await ctx.model.query(`select id,name from ${tableName} ${whereSql}`);
         return result;
     }
 
@@ -49,10 +49,10 @@ class BookService extends Service {
      */
     async getSingleByWhere(columns, whereSql) {
         const { ctx } = this;
-        columns = columns || `Id,Name,DATE_FORMAT(CreatedDate,'%Y-%m-%d %H:%i:%s') CreatedDate`;
+        columns = columns || `b.id,,b.name,b.created_date`;
         if (!whereSql) ctx.throw(500, '参数错误');
-
         const [results] = await ctx.model.query(`select ${columns} from ${this.tableName} where ${whereSql};`);
+        // const [results] = await ctx.model.query(`select ${columns} from ${this.tableName};`);
         return results[0];
     }
 

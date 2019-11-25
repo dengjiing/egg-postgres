@@ -46,4 +46,10 @@ NAPI 项目目录
 
 ## 使用教程
 
+1、 npm i
+2、 修改数据库配置文件 
+3、 npm run dbload
+
+
+
 https://www.jianshu.com/p/93b19699659a

@@ -5,7 +5,7 @@
  * 文件名称：config.default.js
  * 文件描述：项目的基本配置文件
  * 创建时间：2019/10/25
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
@@ -13,7 +13,7 @@ const databaseconfig = require("./core/database.config");
 const swaggerdoc = require("./core/swagger.config");
 
 // 配置项目唯一的标识
-exports.keys = "monksoul.napi";
+exports.keys = "dengjing.napi";
 
 // egg-swagger-doc 配置信息
 exports.swaggerdoc = swaggerdoc;

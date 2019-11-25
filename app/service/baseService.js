@@ -5,7 +5,7 @@
  * 文件名称：baseService.js
  * 文件描述：父业务类
  * 创建时间：2019/10/25
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
@@ -19,12 +19,11 @@ class BaseService extends Service {
     }
 
     /**
-     * 根据Id获取表信息
+     * 根据id获取表信息
      * @param {*} id 主键
      */
     async getById(id) {
         const entity = await this.db.findByPk(id);
-
         return entity;
     }
 
@@ -42,7 +41,8 @@ class BaseService extends Service {
      * @param {*} model 表模型信息
      */
     async create(model) {
-        if (model.Id) delete model.Id;
+        // if (model.id) delete model.id;
+        if (model.id) delete model.id;
         const results = await this.db.create(model);
         return results.dataValues;
     }

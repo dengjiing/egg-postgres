@@ -5,7 +5,7 @@
  * 文件名称：book.js
  * 文件描述：图书接口
  * 创建时间：2019/10/25
- * 编写作者：MonkSoul
+ * 编写作者：dengjing
  * 修改时间：NONE
  */
 
@@ -16,20 +16,21 @@ const Controller = require("./baseController");
 */
 class BookController extends Controller {
     /**
-    * @summary 根据Id获取图书信息
-    * @description 根据Id获取图书信息
+    * @summary 根据id获取图书信息
+    * @description 根据id获取图书信息
     * @router get /v1/book/getBookById
-    * @request query integer Id 图书ID
+    * @request query integer id 图书id
     * @response 200 JsonResult 操作结果
     */
-    async getBookById() {
+    async getBookById () {
+        debugger
         const { ctx, service } = this;
-
-        const id = ctx.query.Id;
-
+        const id = ctx.query.id;
         const result = await service.book.getById(id);
         const newReuslt = ctx.helper.mapperToDto(result, ctx.rule.CreateOrUpdateBookDto);
         this.jsonBody(newReuslt);
+        console.log('newReuslt', newReuslt)
+       
     }
 
     /**
@@ -41,11 +42,9 @@ class BookController extends Controller {
     */
     async getBooks() {
         const { ctx, service } = this;
-
         const param = ctx.query;
-        let whereSql = `b left join bookCategory bc on b.BookCategoryId=bc.Id where b.IsDeleted=0`;
-        if (param.Name) whereSql += ` and b.Name like '%${param.Name}%' or b.Author like '%${param.Name}%' or b.MakeSource like '%${param.Name}%'`
-
+        let whereSql = `b left join bookCategory bc on b.id = bc.id where b.is_deleted=0`;
+        // if (param.Name) whereSql += ` and b.Name like '%${param.Name}%' or b.Author like '%${param.Name}%' or b.MakeSource like '%${param.Name}%'`
         const results = await service.book.getAll(whereSql);
         this.jsonBody(results);
     }
@@ -53,7 +52,7 @@ class BookController extends Controller {
     /**
     * @summary 新增图书
     * @description 新增图书
-    * @router put /v1/book/addBook
+    * @router post /v1/book/addBook
     * @request body CreateOrUpdateBookDto modal 图书信息
     * @response 200 JsonResult 操作结果
     */
@@ -91,17 +90,15 @@ class BookController extends Controller {
     /**
     * @summary 删除图书
     * @description 删除图书
-    * @router delete /v1/book/deleteBook
+    * @router post /v1/book/deleteBook
     * @request body DeleteBookBookDto modal 图书ID
     * @response 200 JsonResult 操作结果
     */
     async deleteBook() {
         const { ctx, service } = this;
-        const id = ctx.request.body.Id;
-
+        const id = ctx.request.body.id;
         if (!id) ctx.throw(500, '参数错误');
-
-        const result = await service.book.update(id, { IsDeleted: true });
+        const result = await service.book.update(id, { is_deleted: 1 });
         this.jsonBody(result);
     }
 

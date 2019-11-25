@@ -5,7 +5,7 @@
  * 文件名称：member.js
  * 文件描述：会员业务类
  * 创建时间：2019/10/25
- * 编写作者：noMonkSoul
+ * 编写作者：nodengjing
  * 修改时间：NONE
  */
 

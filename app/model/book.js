@@ -4,49 +4,49 @@ module.exports = app => {
   const DataTypes = app.Sequelize;
 
   const Model = app.model.define('book', {
-    Id: {
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
     },
-    Name: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    Author: {
+    author: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    Price: {
+    price: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    MakeSource: {
+    make_source: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    BookCategoryId: {
+    book_categoryid: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
-    Inventory: {
+    inventory: {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    IsDeleted: {
+    is_deleted: {
       type: DataTypes.INTEGER,
       allowNull: true
     },
-    IsSoldOut: {
+    is_sold_out: {
       type: DataTypes.INTEGER,
       allowNull: true
     },
-    CreatedDate: {
+    created_date: {
       type: DataTypes.TIME,
       allowNull: true
     },
-    UpdatedDate: {
+    updated_date: {
       type: DataTypes.TIME,
       allowNull: true
     }
